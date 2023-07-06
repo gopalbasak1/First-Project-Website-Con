@@ -29,3 +29,48 @@
 .logo-photo{
     width:120px;
 }
+
+.banner-img{
+    width:300px;
+}
+
+.banner-container{
+
+    display:flex;
+    justify-content: space-around;
+    height:100vh;
+    align-items: center;
+    /* border:2px solid gray; */
+    color:white;
+    background: url(Image/background.png), linear-gradient(45deg,rgb(8, 8, 8),black);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banner-text h1{
+    font-size:55px;
+    font-weight: bold;
+}
+
+.banner-text p{
+    font-size:18px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.btn{
+    padding:10px 15px;
+    background: red;
+    color:white;
+    border:none;
+    cursor:pointer;
+    transition:.5s;
+
+
+}
+.btn:hover{
+    color:black;
+    background-color: tomato;
+}
