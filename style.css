@@ -67,10 +67,34 @@
     border:none;
     cursor:pointer;
     transition:.5s;
+    margin-top:10px;
 
 
 }
 .btn:hover{
     color:black;
     background-color: tomato;
+}
+
+.about-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding:10px;
+}
+
+.about-title{
+    text-align:center;
+    font-size:55px;
+    margin-top:20px;
+}
+
+.about-info h1{
+    font-size:24px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.about-info p{
+    font-size:18px;
 }
